@@ -1,0 +1,99 @@
+h1{
+  text-align: center;
+  font-family: fantasy;
+  color: crimson;
+  font-size: 60px;
+  animation: bounceIn 8s ease-in;
+  text-shadow: 2px 2px gold;
+}
+
+#rules{
+  font-size: 30px;
+  text-align:center;
+  text-shadow: black;
+  font-family: fantasy;
+  text-decoration-line: underline;
+  color: gold;
+  text-shadow: 2px 2px crimson;
+  animation: bounceIn 8s ease-in;
+
+}
+ul{
+  list-style: none;
+}
+
+button{
+  background-color: crimson;
+  color: black;
+  padding: 3px 60px;
+  text-align: center;
+  text-decoration: underline;
+  display:inline-block;
+  font-family: fantasy;
+  font-size: 18px;
+  border-radius: 6px;
+  border: 2px solid black;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  opacity:
+}
+button:hover{
+  color:yellow;
+}
+table{
+  display: flex;
+  justify-content: center;
+}
+td{
+  width: 100px;
+  height:100px;
+  border: 6px dashed black;
+  border-radius: 5px;
+  font-size: 80px;
+  font-family: sans-serif;
+  text-align: center;
+  color:black;
+  background-image: url("https://image-cdn.neatoshop.com/styleimg/70424/none/black/default/379255-20;1520375876x.jpg");
+  background-size: contain;
+  opacity: 70%
+
+}
+body{
+   background-image: url("https://thumbs.dreamstime.com/b/old-pirate-background-marine-items-empty-space-your-text-153881922.jpg");
+   background-color: crimson;
+   background-size: cover;
+   background-position: center;
+}
+@keyframes bounceIn{
+  0%{
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  55%{
+    transform: scaleX(1.2);
+    opacity: 1;
+  }
+  100%{
+    transform: scaleX(1);
+  }
+}
+#img{
+
+  display:flex;
+  justify-content: center;
+  opacity: 70%
+}
+#dbutton{
+  display:flex;
+  justify-content: center;
+}
+#skull{
+  width:349px;
+  height:150px;
+  border-radius: 9px;
+
+}
+footer{
+  display:flex;
+  color:crimson;
+  justify-content: flex-start;
+}
